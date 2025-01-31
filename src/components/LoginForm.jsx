@@ -9,7 +9,7 @@ const LoginForm = ({ darkMode }) => {
   return (
     <div className="flex flex-col items-center">
       <div
-        className={`mb-6 flex w-96 flex-col items-center rounded border p-8 ${
+        className={`mb-6 flex w-80 flex-col items-center rounded border p-8 ${
           darkMode ? "border-gray-600 bg-black" : "border-gray-300 bg-white"
         }`}
       >
@@ -72,7 +72,7 @@ const LoginForm = ({ darkMode }) => {
       </div>
 
       <div
-        className={`w-96 border p-4 text-center text-sm ${
+        className={`w-80 border p-4 text-center text-sm ${
           darkMode
             ? "border-gray-600 bg-black text-white"
             : "bg-white text-black"
