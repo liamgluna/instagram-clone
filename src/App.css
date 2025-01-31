@@ -1,0 +1,11 @@
+@keyframes slideshow {
+  0%, 20% { opacity: 1; background-image: url('https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png'); }
+  25%, 45% { opacity: 1; background-image: url('https://www.instagram.com/static/images/homepage/screenshots/screenshot2.png/4d62acb667fb.png'); }
+  50%, 70% { opacity: 1; background-image: url('https://www.instagram.com/static/images/homepage/screenshots/screenshot3.png/94edb770accf.png'); }
+  75%, 95% { opacity: 1; background-image: url('https://www.instagram.com/static/images/homepage/screenshots/screenshot4.png/a4fd825e3d49.png'); }
+  100% { opacity: 0; }
+}
+
+.animate-slideshow {
+  animation: slideshow 10s linear infinite;
+}
