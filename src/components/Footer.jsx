@@ -1,7 +1,7 @@
 const Footer = ({ darkMode }) => {
   return (
     <footer
-      className={`mt-36 text-center text-sm ${
+      className={`text-center text-sm ${
         darkMode ? "text-gray-400" : "text-gray-500"
       }`}
     >
@@ -20,7 +20,7 @@ const Footer = ({ darkMode }) => {
         <a href="#">Contact Uploading & Non-Users</a>
         <a href="#">Meta Verified</a>
       </div>
-      <div className="mt-4">&copy; 2025 Instagram from Meta</div>
+      <div className="mt-4 text-xs">&copy; 2025 Instagram from Meta</div>
     </footer>
   );
 };
